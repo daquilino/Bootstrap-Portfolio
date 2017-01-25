@@ -1,0 +1,62 @@
+
+* {
+
+	box-sizing: border-box;
+}
+
+/*.thumbnail{
+	padding: 0;
+	border: none;
+}*/
+
+li img {
+	height:60px;
+	width: 60px;
+}
+
+
+/* sticky footer code*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color:#777777 ;
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;      
+  
+  border-top-right-radius: 5px;
+  border-top-left-radius:5px;
+
+
+	border-top: 1px solid #e7e7e7;  
+}
+
+/*  end sticky footer code*/
+
+footer div p {
+	padding-top:15px;
+	color: #777;
+}
+
+#main p {line-height:190%;}
+
+#main {padding: 0 25px 25px 25px;}
+
+#side-bar {padding: 0 25px 25px 25px;}
+
+.img-responsive{min-width:100px;}   /* keep if I want. I don't really need it */
