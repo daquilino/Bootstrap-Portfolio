@@ -3,64 +3,81 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>About Me</title>
+	
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-
-<!-- Test Code Remove-->
-
-
-<!-- End Test Code-->
-
-
 <body>
 	
-	<!--  Header  -->
-	
-	<nav class="navbar navbar-default">
+		<!--##########~~~~~~ HEADER ~~~~~~##########-->
+
+	<header>
+
 		<div class="container">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      
-		      <a class="navbar-brand" href="#">Douglas Aquilino</a>
-		    </div>
+			
+			<div class="row">
+				
+				<div class="col-xs-12 
+							col-sm-6 
+							col-md-5 
+							col-lg-4" 
+							id="myname-col">
+										
+					<h1 class="text-center">Douglas Aquilino</h1>
+				
+				</div>
+				
+				<div class="col-xs-12 
+							col-sm-5 			
+							col-md-4 
+							col-lg-3 col-lg-offset-3"
+							id="masternav-col">
+					
+							
+			 		<nav>
+						<a href="index.html">About</a>
+						<a href="portfolio.html">Portfolio</a>
+						<a href="contact.html">Contact</a>
+					</nav> 
+				
+				</div><!-- End #masternav-col -->
 
-		    <!-- Collect the nav links for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		           
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#">About</a></li>
-		        <li><a href="#">Portfolio</a></li>
-		        <li><a href="#">Contact</a></li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-	  	</div><!--end .container -->
-	</nav>
+			</div><!-- END row -->
+		
+		</div><!-- END .container-fluid" -->
 
-	
+	</header>
+
+		
 	<div class="container">
 			
 		<div class="row">
 			
-			<!-- main panel-->
 			
-			<div class="col-xs-8">
-				<div  class="panel panel-default" id="main">
+		<!--##########~~~~~~ MAIN PANEL ~~~~~~##########-->
+			
+			<div class="col-xs-12 
+						col-sm-12
+						col-md-5
+						col-lg-7"
+						id="main-col">
+				
+
+				<div  class="panel panel-default" id="main-panel">
 					
 					<div class="page-header">
 	  					<h1>About Me</h1>
 					</div>
-		
+						
 					<div class="row">
-						<div class="col-xs-4">
+						<div class="col-xs-12 
+									col-sm-6
+									col-md-12
+									col-lg-5"
+									id="profile-pic">
+
 							<img src="assets/images/me.jpg" alt="profile" class="img-responsive">
 
 						</div>
@@ -74,70 +91,52 @@
 						</div> 
 
 					</div><!-- end row -->
-
-				</div><!-- end main panel -->
-			</div><!-- end col-xs-8 -->
+			
+				</div><!-- END .panel -->
+			</div><!-- END #main-col -->
 			 
 
-			<!-- sidebar panel-->
-			<div class="col-xs-offset-1 col-xs-3">
-				<div class="panel panel-default text-center" id="side-bar">
-					<!-- <div class="row"> -->
-						<div class="page-header">
-	  						<h3>Connect with Me</h3>
-						</div>
-					<!-- </div> -->
-
-					<div class="row" >
-								
-						<div id="conatact-links">
-							<ul class="nav navbar-nav">
+			
+		<!--##########~~~~~~ SIDEBAR PANEL ~~~~~~##########-->
+			
+			<div class="col-xs-12
+						col-sm-12
+						col-md-3
+						col-lg-3"
+						id="sidebar-col">
 				
-								<li>
-									<a href="https://github.com/daquilino"  target="_blank">
-										<img src="assets/images/github.png" alt="GitHub">
-									</a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/in/douglas-aquilino-83334880" target="_blank">
-										<img src="assets/images/linkedin.png" alt="LinkedIn">
-									</a>
-								</li>
-								<li>
-									<a href="http://stackoverflow.com/users/7448313/daquilino?tab=profile" target="_blank">
-									
-									<img src="assets/images/stackoverflow.png" alt="StackOverflow">
-									</a>
-								</li>
-				
-							</ul>
-						
-						</div><!-- #contact-links -->
-					
+				<div class="panel panel-default" id="side-bar">
 
-					</div><!-- end row-->
-				</div> <!-- end #sidebar-->
+					<div class="page-header">
+	  					<h3>Connect with Me</h3>
+					</div>
+
+					<ul class="nav nav-pills">
+  						<li><a href="#"><img class="sidebar-links" src="assets/images/github.png" alt="GitHub"></a></li>
+  						
+  						<li><a href="#"><img class="sidebar-links" src="assets/images/linkedin.png" alt="LinkedIn"></a></li>
+  						
+  						<li role="presentation"><a href="#"><img class="sidebar-links" src="assets/images/stackoverflow.png" alt="StackOverflow"></a></li>
+					</ul>
+
+				</div> <!-- END #side-bar-->
 		
-			</div> <!-- end col-md-offset-1 col-md-3 -->
-		</div><!-- end row-->
-
+			</div> <!-- END #sidebar-col -->
 		
+		</div><!-- END row-->
 
+	
 	</div><!-- End .container-->
 
 	
-	
-	<!-- sticky footer code requires css -->
-	<footer class="footer bg-info">
+
+		<!--##########~~~~~~ FOOTER ~~~~~~##########-->
+		
+	<footer class="footer">
      	<div class="container">
         	<p class="text-center">&copy; Copywright 2017 Douglas Aquilino</p>
-      </div>
+      	</div>
     </footer>
     
-
-
-	
-
-
 </body>
 </html>
