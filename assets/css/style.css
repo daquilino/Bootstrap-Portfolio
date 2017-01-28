@@ -27,7 +27,7 @@ h1, h3 {
 	font-size: 32px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-	
+
 	/*########################################*/
 	/*~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~*/
 	/*########################################*/
@@ -73,6 +73,9 @@ header{
 
 #masternav-col nav a:first-child {border-left: none;}
 
+img.img-responsive{
+	width: 100%;
+}
 	
 	/*########################################*/
   	/*###########~~~~~~ MAIN ~~~~~~###########*/
@@ -129,13 +132,59 @@ header{
 	/*##########~~~~~~ CONTACT ~~~~~~##########*/
 	/*#########################################*/
 	
+.btn {
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px 0px 30px;
+	cursor: pointer;
+}
+	
+.contact {
+		
+		width: 100%;
+		border-color: #dddddd;
+		border-style: solid;
+		margin: 10px 0px 20px;
+		height: 35px;
+		padding-left: 10px;
+		color: #4aaaa5;
+}
+
+.message { height: 200px; }
 
 
 	/*#########################################*/
 	/*##########~~~~~~ PROFILE ~~~~~~##########*/
 	/*#########################################*/
+				/* all code from website for test*/
+	.caption {
+		
+		background: #4aaaa5;
+		width: 100%;		
+		position: absolute;
+		bottom: 20px;
+		z-index: 1;	
 
+	}
 
+	.caption h2{
+		color: white;
+		font-size: 24px;
+ 	}
+
+ 	.thumbnail {
+        border: 0 none;
+        box-shadow: none;
+        margin:0;
+        padding:0;     
+    }
+ 	
 	/*########################################*/
 	/*##########~~~~~~ FOOTER ~~~~~~##########*/
 	/*########################################*/

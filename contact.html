@@ -30,13 +30,12 @@
 				</div>
 				
 				<div class="col-xs-12 
-							col-sm-5 			
-							col-md-4 
+							col-sm-5 col-sm-offset-1
+							col-md-4 col-md-offset-1
 							col-lg-3 col-lg-offset-3"
 							id="masternav-col">
-					
-							
-			 		<nav>
+										
+			 		<nav class="text-center">
 						<a href="index.html">About</a>
 						<a href="portfolio.html">Portfolio</a>
 						<a href="contact.html">Contact</a>
@@ -60,7 +59,7 @@
 			
 			<div class="col-xs-12 
 						col-sm-12
-						col-md-5
+						col-md-6
 						col-lg-7"
 						id="main-col">
 				
@@ -68,10 +67,25 @@
 				<div  class="panel panel-default" id="main-panel">
 					
 					<div class="page-header">
-	  					<h1>About Me</h1>
+	  					<h1>Contact</h1>
 					</div>
+					
+					<form action="#"> 
+					
+					Name <input class="contact" type="text" name="FullName" placeholder="John Smith">
+					
+					<br>
+					
+					Email <input class="contact" type="text" name="Email" placeholder="example@gmail.com">
+					
+					<br>
+					
+					Message <textarea class="contact message"></textarea>
+				
+					<input class="btn" type="submit" value="Submit">
+				
+					</form>
 						
-						<!-- rest of main code here-->
 			
 				</div><!-- END .panel -->
 			</div><!-- END #main-col -->
