@@ -62,6 +62,13 @@ header{
 	min-width: 350px;
 	margin-top: 0;
 	padding-top: 26px;
+	animation-name: aniname;  /* css animation*/
+    animation-duration: 4s;	  /* css animation*/
+}
+							
+@keyframes aniname {			
+    from {background-color: white;}
+    to {background-color: #4aaaa5;}
 }
 
 #masternav-col{
