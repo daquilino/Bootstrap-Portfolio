@@ -1,9 +1,14 @@
+/*   Douglas Aquilino       January 28, 2017 	*/
+/*   RCB - "Bootstrap-Portfolio" Homework   	*/
+/*                  style.css					*/
+
 
 	/*########################################*/
 	/*##########~~~~~~ GENERAL ~~~~~~#########*/
 	/*########################################*/
 
 html {					/* for sticky footer */
+  
   position: relative;  
   min-height: 100%;
 }
@@ -22,6 +27,7 @@ body {
 .page-header h3 {font-size: 24px;}
 
 h1, h2, h3 {
+	
 	color: #4aaaa5;
 	font-weight: 900;
 	font-size: 32px;
@@ -60,7 +66,6 @@ header{
 
 #masternav-col{
 
-	/*background:red;		 REMOVE - TEST CODE*/
 	padding-top: 30px;
 	padding-bottom:30px;	
 }
@@ -68,11 +73,17 @@ header{
 #masternav-col nav a {
 	
 	color: #4aaaa5;
-	padding: 0px 10px;	
+	padding: 0px 8%;	
 	border-left:1px solid #dddddd;
 }
 
-#masternav-col nav a:first-child {border-left: none;}
+#masternav-col nav a:first-child {
+
+	border-left: none;
+	padding-left: 0;
+}
+
+#masternav-col nav a:last-child {padding-right:0;}
 
 
 	
@@ -91,6 +102,7 @@ header{
 	/*#########################################*/
 
 #side-bar{ 
+	
 	min-width:260px; 
 	padding: 0 25px 25px 25px;
 	}
@@ -99,12 +111,14 @@ header{
 { margin-bottom: 10px;}      
 
 #side-bar img{
+	
 	width: 60px;
 	height: 60px;
 }
+
 #side-bar a {
-	padding: 0 0 0 5px;
 	
+	padding: 0 0 0 5px;	
 }
 
 #side-bar a:first-child { padding-left: 5px;}
@@ -116,12 +130,14 @@ header{
 	/*#######################################*/
 	
 #profile-pic{
+	
 	padding: 0;
 	margin-right: 20px;
 	margin-bottom: 20px; 
 }
 
 #main-panel p {
+	
 	line-height:190%;
 	padding: ;
 }
@@ -132,6 +148,7 @@ header{
 	/*#########################################*/
 	
 .btn {
+	
 	background-color: #4aaaa5;
 	border: none;
 	color: white;
@@ -158,12 +175,11 @@ header{
 .message { height: 200px; }
 
 
+
 	/*#########################################*/
 	/*##########~~~~~~ PROFILE ~~~~~~##########*/
 	/*#########################################*/
 	
-
-    
 .image-label {
 	
 	width: 100%;
@@ -173,6 +189,7 @@ header{
 }
 
 .image-label h2{
+	
 	color: white;
 	background: #4aaaa5;
 	font-size: 24px;
@@ -186,6 +203,7 @@ header{
 	/*########################################*/
 
 footer {
+	
 	position: absolute;
   	bottom: 0;
   	width: 100%;
