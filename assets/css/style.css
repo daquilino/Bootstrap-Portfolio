@@ -21,11 +21,15 @@ body {
 
 .page-header h3 {font-size: 24px;}
 
-h1, h3 {
+h1, h2, h3 {
 	color: #4aaaa5;
 	font-weight: 900;
 	font-size: 32px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+img.img-responsive{
+	width: 100%;
 }
 
 	/*########################################*/
@@ -40,11 +44,8 @@ header{
 }
 
 #myname-col{
-
-	/*background:blue;*/  		/* REMOVE - TEST CODE*/
+	
 	height: 90px;
-	/*padding: 0px;*/			/* mess with this maybe*/
-	/*margin-left: 15px;*/		/* mess with this maybe*/
 }
 
 #myname-col h1 {
@@ -73,9 +74,7 @@ header{
 
 #masternav-col nav a:first-child {border-left: none;}
 
-img.img-responsive{
-	width: 100%;
-}
+
 	
 	/*########################################*/
   	/*###########~~~~~~ MAIN ~~~~~~###########*/
@@ -147,13 +146,13 @@ img.img-responsive{
 	
 .contact {
 		
-		width: 100%;
-		border-color: #dddddd;
-		border-style: solid;
-		margin: 10px 0px 20px;
-		height: 35px;
-		padding-left: 10px;
-		color: #4aaaa5;
+	width: 100%;
+	border-color: #dddddd;
+	border-style: solid;
+	margin: 10px 0px 20px;
+	height: 35px;
+	padding-left: 10px;
+	color: #4aaaa5;
 }
 
 .message { height: 200px; }
@@ -162,29 +161,26 @@ img.img-responsive{
 	/*#########################################*/
 	/*##########~~~~~~ PROFILE ~~~~~~##########*/
 	/*#########################################*/
-				/* all code from website for test*/
-	.caption {
-		
-		background: #4aaaa5;
-		width: 100%;		
-		position: absolute;
-		bottom: 20px;
-		z-index: 1;	
+	
 
-	}
+    
+.image-label {
+	
+	width: 100%;
+	position: relative;
+	bottom: 90px;
+	margin-bottom: -60px;
+}
 
-	.caption h2{
-		color: white;
-		font-size: 24px;
- 	}
+.image-label h2{
+	color: white;
+	background: #4aaaa5;
+	font-size: 24px;
+	text-align: center;
+	padding: 18px 0;
 
- 	.thumbnail {
-        border: 0 none;
-        box-shadow: none;
-        margin:0;
-        padding:0;     
-    }
- 	
+}
+
 	/*########################################*/
 	/*##########~~~~~~ FOOTER ~~~~~~##########*/
 	/*########################################*/
